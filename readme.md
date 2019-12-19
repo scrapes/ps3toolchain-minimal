@@ -38,9 +38,9 @@ The command pallete of this Container contains the `make` command
 as well as all PSL1GHT tools such as fself.py.
 
 
-# 3 Have fun Exploring and Building!!!
+# 3. Have fun Exploring and Building!!!
 
-# -1 Dont want Docker?
+# 1-1. Dont want Docker?
 If you wish to install this toolchain yourself, then do the following instructions:
 NOTE: These instructions should work for Linux/Mac/MinGW but are only tested on Linux
 
