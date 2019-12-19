@@ -9,6 +9,7 @@ The GDB(s) for PPU and SPU as well as the ps3libraries got stripped. This reduce
 
 # 2. Usage
 
+## Building from Scratch
 You can clone this Repo and build it with docker build command:
 ```
 docker build -t ps3toolchain-minimal .
@@ -20,7 +21,7 @@ After this you can use the image with:
 docker run -v `pwd`:/build ps3toolchain-minimal [COMMAND]
 ```
 
-
+## Pull from DockerHub
 If you want to skip building the Image (wich takes up to more than 30-45min.) you can pull the image from DockerHub.
 To do this make:
 
@@ -34,11 +35,11 @@ then use the toolchain with
 docker run -v `pwd`:/build scrapes/ps3toolchain-minimal [COMMAND]
 ```
 
+## Commands
 The command pallete of this Container contains the `make` command 
 as well as all PSL1GHT tools such as fself.py.
 
 
-# 3. Have fun Exploring and Building!!!
 
 # 1-1. Dont want Docker?
 If you wish to install this toolchain yourself, then do the following instructions:
